@@ -1,0 +1,57 @@
+/*                                   Navigation Bar                                             */
+h1
+{
+    color: #00a1ab;
+}
+
+.btn-outline-light
+{
+  color : #58b4ae;
+}
+
+.btn-outline-light:hover, .btn-outline-light:active, .btn-outline-light:focus
+{
+  color : grey;
+}
+
+a:visited
+{
+  color: #58b4ae;
+}
+
+.NavHead
+{
+  display : inline-block;
+  margin-left: 1%;
+  position: absolute;
+  top: 17%;
+}
+
+.navbarLeft
+{
+  margin-left: 10%;
+}
+
+.navbarRight
+{
+  margin-right: 10%;
+}
+.chckbox{
+    width:20px;height:20px;
+}
+.itemNo{
+    width:40px;
+}
+.btn{
+    padding:10px 80px;
+}
+.menuBar{
+    border:1px solid;
+    
+}
+.tab{
+    width: 60px;
+}
+.ppl{
+    width: 200px;
+}

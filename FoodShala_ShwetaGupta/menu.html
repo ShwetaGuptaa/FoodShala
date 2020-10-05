@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FoodShala</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets\menuCSS.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	
+  </head>
+  <body>
+<!--                                  Navigation Bar                                            -->
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand navbarLeft" href="Index.html"><img src="icon.png" alt="">
+      <h1 class = "Jumbotron NavHead">FoodShala</h1></a>
+      <ul class="navbar-nav navbarRight">
+        <li class="nav-item active ml-auto">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><a href="SignIn.html">Login In</a></button>
+          
+		  
+        </li>
+      </ul>
+    </nav>
+	<br>
+	<h1 class="Jumbotron MainHead">Order items here</h1>
+				<div id="order" class="menuBar">
+                    <table class="table table-hover">
+                        <tr>
+                            <th></th>
+                            <th>Name of item</th>
+							<th>Veg/Non-Veg</th>
+							<th>Restaurant Name</th>
+                            <th>No.of items</th>
+                            <th>Price per item </th>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="item1" id="item1" value="Burger" class="chckbox"></td>
+                            <td>Aloo tikki Burger</td>
+							<td>Veg</td>
+							<td>Hardyz Burger Sarabha Nagar</td>
+                            <td><select name="noOfburger" id="noOfburger" class="itemNo">
+                                    <option value=1>1</option>
+                                    <option value=2>2</option>
+                                    <option value=3>3</option>
+                                    <option value=4>4</option>
+                                    <option value=5>5</option>
+                                </select></td>
+                            <td>Rs.59 </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="item2" id="item2" value="Sandwich" class="chckbox"> </td>
+                            <td> cheese grilled Sandwich</td>
+							<td>Veg</td>
+							<td>Thapa Fast Food</td>
+                            <td><select name="noOfSandwich" id="noOfSandwich" class="itemNo">
+                                    <option value=1>1</option>
+                                    <option value=2>2</option>
+                                    <option value=3>3</option>
+                                    <option value=4>4</option>
+                                    <option value=5>5</option>
+                                </select></td>
+                            <td>Rs.69 </td>
+                        </tr>
+                        <tr>
+						    <td><input type="checkbox" name="item3" id="item3" value="Pizza" class="chckbox"></td>
+                            <td>Kadhai Chicken</td>
+							<td>Veg</td>
+							<td> Uttam Chicken Corner</td>
+                            <td><select name="noOfPizza" id="noOfPizza" class="itemNo">
+                                    <option value=1>1</option>
+                                    <option value=2>2</option>
+                                    <option value=3>3</option>
+                                    <option value=4>4</option>
+                                    <option value=5>5</option>
+                                </select></td>
+                            <td>Rs.125 </td>
+                        </tr>
+						 <tr>
+                            <td><input type="checkbox" name="item4" id="item4" value="FrenchFries" class="chckbox">
+                            </td>
+                            <td>Full thali</td>
+							<td>Veg</td>
+							<td>Delhi Food Junction</td>
+                            <td><select class="itemNo" name="noOfFrenchFries" id="noOfFrenchFries">
+                                    <option value=1>1</option>
+                                    <option value=2>2</option>
+                                    <option value=3>3</option>
+                                    <option value=4>4</option>
+                                    <option value=5>5</option>
+                                </select></td>
+                            <td>Rs.80 </td>
+                        </tr>
+						<tr>
+                            <td><input type="checkbox" name="item4" id="item4" value="FrenchFries" class="chckbox">
+                            </td>
+                            <td>Egg curry</td>
+							<td>Non-Veg</td>
+							<td>Delhi Food Junction</td>
+                            <td><select class="itemNo" name="noOfFrenchFries" id="noOfFrenchFries">
+                                    <option value=1>1</option>
+                                    <option value=2>2</option>
+                                    <option value=3>3</option>
+                                    <option value=4>4</option>
+                                    <option value=5>5</option>
+                                </select></td>
+                            <td>Rs.80 </td>
+                        </tr>
+						<tr>
+                            <td><input type="checkbox" name="item3" id="item3" value="Pizza" class="chckbox"></td>
+                            <td> Chicken Biryani</td>
+							<td>Non-Veg</td>
+							<td> Biryani Box</td>
+                            <td><select name="noOfPizza" id="noOfPizza" class="itemNo">
+                                    <option value=1>1</option>
+                                    <option value=2>2</option>
+                                    <option value=3>3</option>
+                                    <option value=4>4</option>
+                                    <option value=5>5</option>
+                                </select></td>
+                            <td>Rs.339 </td>
+                        </tr>
+						<tr>
+                            <td><input type="checkbox" name="item3" id="item3" value="Pizza" class="chckbox"></td>
+                            <td> Veg Biryani</td>
+							<td>Veg</td>
+							<td> Biryani Box</td>
+                            <td><select name="noOfPizza" id="noOfPizza" class="itemNo">
+                                    <option value=1>1</option>
+                                    <option value=2>2</option>
+                                    <option value=3>3</option>
+                                    <option value=4>4</option>
+                                    <option value=5>5</option>
+                                </select></td>
+                            <td>Rs.199 </td>
+                        </tr>
+						<tr>
+                            <td><input type="checkbox" name="item3" id="item3" value="Pizza" class="chckbox"></td>
+                            <td> Cheesy Vegetable Pizza</td>
+							<td>Veg</td>
+							<td> Domino's Pizza</td>
+                            <td><select name="noOfPizza" id="noOfPizza" class="itemNo">
+                                    <option value=1>1</option>
+                                    <option value=2>2</option>
+                                    <option value=3>3</option>
+                                    <option value=4>4</option>
+                                    <option value=5>5</option>
+                                </select></td>
+                            <td>Rs.199 </td>
+                        </tr>
+						<tr>
+                            <td><input type="checkbox" name="item3" id="item3" value="Pizza" class="chckbox"></td>
+                            <td> Margherita Pizza</td>
+							<td>Veg</td>
+							<td> Domino's Pizza</td>
+                            <td><select name="noOfPizza" id="noOfPizza" class="itemNo">
+                                    <option value=1>1</option>
+                                    <option value=2>2</option>
+                                    <option value=3>3</option>
+                                    <option value=4>4</option>
+                                    <option value=5>5</option>
+                                </select></td>
+                            <td>Rs.199 </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="item4" id="item4" value="FrenchFries" class="chckbox">
+                            </td>
+                            <td>Special Pav Bhaji</td>
+							<td>Veg</td>
+							<td>Bombay Special Pav Bhaji & Fast Food</td>
+                            <td><select class="itemNo" name="noOfFrenchFries" id="noOfFrenchFries">
+                                    <option value=1>1</option>
+                                    <option value=2>2</option>
+                                    <option value=3>3</option>
+                                    <option value=4>4</option>
+                                    <option value=5>5</option>
+                                </select></td>
+                            <td>Rs.110 </td>
+                        </tr>
+                    </table>
+					 <br>
+      <button type="button" class="btn btn-info btn-lg btn-block">Order</button>
+                </div>
+				</body>
+
+</html>
