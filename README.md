@@ -4,6 +4,5 @@ Customers can view food item from menu list.
 Restaurants can add, delete or update the item by signing in to the website.
 
 
-Technology Used:
-HTML
-CSS
+Languages Used:
+HTML, CSS, Bootstrap
